@@ -1,0 +1,30 @@
+{
+  "name": "aran.site",
+  "version": "1.0.0",
+  "description": "my personal site",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass scss/ -o public/css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "build-pug": "pug templates --out public",
+    "watch-pug": "nodemon -e pug -x \"npm run build-pug\"",
+    "watch": "npm run watch-css & npm run watch-pug &"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aranscope/aran.site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aranscope/aran.site/issues"
+  },
+  "homepage": "https://github.com/aranscope/aran.site#readme",
+  "devDependencies": {
+    "concurrently": "^3.4.0",
+    "node-sass": "^4.5.2",
+    "nodemon": "^1.11.0",
+    "pug": "^2.0.0-beta11"
+  }
+}
