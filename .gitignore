@@ -11,7 +11,3 @@ node_modules
 # terminal logs
 *.out
 *.log
-
-# web
-*.html
-*.css
