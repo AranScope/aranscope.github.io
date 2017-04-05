@@ -19,3 +19,8 @@ gulp.task('css', function(){
 
 gulp.task('default', [ 'html', 'css' ]);
 
+gulp.task('watch', function() {
+	gulp.watch('scss/*.scss', ['css']);
+	gulp.watch('templates/*.pug', ['html']);
+});
+

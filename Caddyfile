@@ -14,4 +14,4 @@ redir 302 {
 }
 
 # on startup rebuild our sass and pug
-startup gulp
+startup gulp watch &
