@@ -2,7 +2,7 @@
 aran.site
 
 # rooted in the public directory
-root public
+root aran.site/public
 
 # remove extensions from html files
 ext .html
@@ -11,6 +11,12 @@ ext .html
 redir 302 {
 	if {path} is /
 	/ /resume
+}
+
+# get project from git
+git {
+	repo https://github.com/aranscope/aran.site.git
+	branch release
 }
 
 # on startup rebuild our sass and pug
