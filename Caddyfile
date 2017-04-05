@@ -1,10 +1,17 @@
 # run the server on port 80
-138.68.146.220:80
+aran.site
 
 # rooted in the public directory
 root public
 
+# remove extensions from html files
 ext .html
+
+# -- temporarily forward to resume page --
+redir 302 {
+	if {path} is /
+	/ /resume
+}
 
 # on startup rebuild our sass and pug
 startup gulp
