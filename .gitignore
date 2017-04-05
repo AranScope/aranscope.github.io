@@ -9,4 +9,9 @@ node_modules
 *.scssc
 
 # terminal logs
-.out
+*.out
+*.log
+
+# web
+*.html
+*.css

@@ -1,18 +1,26 @@
-# run the server on port 80
-aran.site
+aran.site {
+	ext .html .md
+	gzip
+	log access.log
+	errors error.log
+	root public
+	startup gulp
+	startup gulp watch &
 
-# rooted in the public directory
-root public
-
-# remove extensions from html files
-ext .html
-
-# -- temporarily forward to resume page --
-redir 302 {
-	if {path} is /
-	/ /resume
+	redir 302 {
+		if {path} is /
+		/ /resume
+	}
 }
 
-# on startup rebuild our sass and pug
-startup gulp
-startup gulp watch &
+blog.aran.site {
+	ext .md	
+
+	markdown /posts {
+		css https://aran.site/css/post.css
+	}
+	
+	rewrite {
+		to {path} {path}/ /posts{uri}
+	}	
+}
