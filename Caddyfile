@@ -4,20 +4,22 @@ aran.site {
 	log access.log
 	errors error.log
 	root public
-	startup gulp
-	startup gulp watch &
+	#startup gulp
+	#startup gulp watch &
+}
 
-#	redir 302 {
-#		if {path} is /
-#		/ /resume
-#	}
+static.aran.site {
+	root static
 }
 
 blog.aran.site {
 	ext .md	
 
 	markdown /posts {
-		css https://aran.site/css/post.css
+		css https://static.aran.site/blog/css/normalize.css
+		css https://static.aran.site/blog/css/skeleton.css
+		css https://static.aran.site/blog/css/post.css
+		template https://static.aran.site/blog/post.html
 	}
 	
 	rewrite {
