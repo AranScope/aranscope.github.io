@@ -5,15 +5,3 @@ aran.site {
 	errors error.log
 	root public
 }
-
-blog.aran.site {
-	ext .md	
-
-	markdown /posts {
-		css https://aran.site/css/post.css
-	}
-	
-	rewrite {
-		to {path} {path}/ /posts{uri}
-	}	
-}

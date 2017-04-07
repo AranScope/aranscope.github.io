@@ -1,0 +1,36 @@
+header {
+    text-align: center;
+    background: black;
+    display: flex;
+    padding: 100px 100px 150px 100px;
+    /*background: url('../img/header.jpg') no-repeat;*/
+    /*background-size: 100% auto;*/
+    /*background-position: top 0 right 50%*/
+}
+
+
+.header-container {
+    margin: auto;
+}
+
+.header-container h1 {
+    color: #fff;
+}
+
+.header-container a, p {
+    color: #ccc;
+}
+
+body {
+    background-color: #F7F8F9;
+}
+
+.container {
+    background-color: #FFF;
+    margin-top: -50px;
+    padding: 40px;
+}
+
+.centered-text {
+    text-align: center;
+}

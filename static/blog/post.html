@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{.Doc.title}}</title>
+</head>
+<body>
+<header>
+    <div class="header-container">
+        <h1>{{.Doc.title}}</h1>
+        <p>{{.Doc.description}}</p>
+        <a>Aran Long</a><a> | </a><a>{{.Doc.date}}</a>
+    </div>
+</header>
+
+<div class="container">
+    {{.Doc.body}}
+    <div class="centered-text">
+        <a href="https://aran.site">- Back to Home -</a>
+    </div>
+</div>
+</body>
+</html>
