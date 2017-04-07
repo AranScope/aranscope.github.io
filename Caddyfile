@@ -4,13 +4,6 @@ aran.site {
 	log access.log
 	errors error.log
 	root public
-	startup gulp
-	startup gulp watch &
-
-#	redir 302 {
-#		if {path} is /
-#		/ /resume
-#	}
 }
 
 blog.aran.site {
