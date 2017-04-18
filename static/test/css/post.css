@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,400');
+
+body {
+    margin: 0 auto;
+    max-width: 750px;
+    padding: 1em;
+}
+
+a,
+a:visited,
+p,
+li{
+    font-family: "Merriweather", sans-serif;
+    line-height: 1.65em;
+    font-size: 1.1em;
+    font-weight: 300;
+    text-rendering: geometricPrecision;
+    text-decoration: none;
+    color: #3A4145;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Lato", sans-serif;
+    margin: 32px 0 16px 0;
+    color: #2E2E2E;
+}
+
+h1:first-of-type {
+    margin-top: 0px;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+    body {
+        margin-top: 4em;
+    }
+}
