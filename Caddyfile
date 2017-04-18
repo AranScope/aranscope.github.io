@@ -1,5 +1,5 @@
-marked.tech {
-	proxy / localhost:2017
+lectures.aran.site {
+	proxy / localhost:2369
 }
 
 aran.site, aranlong.co.uk {
@@ -9,7 +9,9 @@ aran.site, aranlong.co.uk {
 	errors error.log
 	
 	root public/base/app
+
 	redir /resume https://static.aran.site/files/resume.pdf
+	redir /cv https://static.aran.site/files/cv.pdf
 	redir /projects https://blog.aran.site/projects
 }
 
