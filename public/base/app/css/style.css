@@ -14,13 +14,7 @@ body {
 
 .image {
   max-width: 200px;
-  animation-name: anim;
-  animation-duration: 5s;
-  animation-timing-function: ease-in-out;
-  animation-delay: 0;
-  animation-iteration-count: infinite;
-  animation-fill-mode: none;
-  animation-play-state: running; }
+}
 
 @keyframes test {
   0% {

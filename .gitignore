@@ -11,3 +11,6 @@ node_modules
 # terminal logs
 *.out
 *.log
+
+# Not sure :/
+*.swp
