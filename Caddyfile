@@ -23,3 +23,15 @@ static.aran.site {
 blog.aran.site, blog.aranlong.co.uk {
 	proxy / localhost:2368
 }
+
+test.aran.site {
+	proxy / localhost:8000
+}
+
+chat.aran.site {
+	proxy / localhost:3000
+}
+
+jsoncv.aran.site {
+	proxy / localhost:4001
+}
