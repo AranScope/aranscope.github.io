@@ -1,7 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900");
-body {
+html, body {
   font-family: "Lato", sans-serif;
-  margin: 0; }
+  margin: 0;
+  height: 100%; }
+
+#header {
+  min-height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center; }
 
 .heading {
   color: #2A3551;
@@ -13,54 +21,26 @@ body {
   text-decoration: none; }
 
 .image {
-  max-width: 200px;
-  animation-name: anim;
-  animation-duration: 5s;
-  animation-timing-function: ease-in-out;
-  animation-delay: 0;
-  animation-iteration-count: infinite;
-  animation-fill-mode: none;
-  animation-play-state: running; }
-
-@keyframes test {
-  0% {
-    transform: translateX(0px); }
-  100% {
-    transform: translateX(200px); } }
-
-@keyframes anim {
-  0% {
-    transform: rotateY(0deg); }
-  50% {
-    transform: rotateY(0deg); }
-  100% {
-    transform: rotateY(360deg); } }
-
-.vcentre {
-  position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%); }
-
-.full-height {
-  height: 100vh; }
-
-.centre {
-  text-align: center; }
+  max-width: 200px; }
 
 .title {
   border: 4px solid;
   padding: 2rem 0; }
 
+.arrow {
+  color: #ddd;
+  font-size: 5em;
+  text-decoration: none; }
+
+.arrow:hover {
+  color: #ccc; }
+
 .header {
   background-color: #333;
   color: #ecf0f1; }
 
-.para {
-  background-color: #ecf0f1;
-  color: #34495e;
-  padding: 1.5rem; }
+.section {
+  padding: 6em 3rem; }
 
 a,
 p,
@@ -75,10 +55,29 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 400; }
+  font-weight: 400;
+  letter-spacing: 0.1em; }
 
 h1 {
   letter-spacing: 0.3em; }
 
 h5, h6 {
-  letter-spacing: 0.2em; }
+  letter-spacing: 0.2em;
+  margin-bottom: 0.2em; }
+
+img {
+  margin: 25px 0; }
+
+a {
+  color: #ecf0f1; }
+
+#about {
+  clip-path: polygon(50% 3em, 100% 0, 100% 100%, 0 100%, 0% 0);
+  /*background-color: #ecf0f1;*/
+  background-color: #364760;
+  /*color: #34495e;*/
+  color: #ecf0f1; }
+
+#projects {
+  background-color: #5678A9;
+  color: #ecf0f1; }

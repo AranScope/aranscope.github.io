@@ -6,17 +6,16 @@ html(lang="en")
         
         link(rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.min.css")
         link(rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css")
-        link(rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css")
         link(rel="stylesheet" type="text/css" href="css/style.css")
         title Aran Long
         meta(name="description" content="Aran Long portfolio website")
         meta(name="author" content="Aran Long")
 
     body
-        .section
+        #header
             .container
-                .row.full-height
-                    div.centre.vcentre
+                .row
+                    div
                         img(src="./logo.png").image
                         br
                         br
@@ -27,3 +26,37 @@ html(lang="en")
                         a(href="https://blog.aran.site").link BLOG
                         a.link  | 
                         a(href="/contact").link CONTACT
+                        br
+                        a(href="#about").arrow &#8964;
+        .section#about
+            .container.u-full-width
+                .row
+                    h4 ABOUT
+                    p I am technical consultant that has worked on projects ranging from government led blockchain research to start up MVP development.
+                    p Over the last two years I have spent my time travelling around the world, competing in hackathons from Toronto to Barcelona to Helsinki to Prague. Current and previous work includes --
+                    ul
+                        li Current researcher @ UK Government
+                        li Current software engineer @ InventiveCogs
+                        li Ex. Intern software engineer @ Autodesk
+                    p I am currently seeking graduate roles with companies that are passionate about bringing new ideas to life, if you're looking for a partner in crime then please don't hesitate to get in touch.
+
+        //- .section#projects
+        //-     .container.u-full-width
+        //-         .row
+        //-             h4 PROJECTS
+        //-         .row
+        //-                 h5 NOTIFI.CLICK
+        //-                 p Notifi is a no cost notification system with endless applications. Developer panic button? No worries. Amazon delivery door bell? Why not.
+        //-                 a(href="https://devpost.com/software/notifi-click") Link to the project.
+        //-                 img.u-max-full-width(src="http://www.apimages.com/Images/Ap_Creative_Stock_Header.jpg")
+
+        //-         .row
+        //-             .one-half.column
+        //-                 h5 DANCEAUTH
+        //-                 p Shape. Slicing. Security. Let's put the 2-step in 2-step authentication with dance move passwords.
+        //-                 a(href="https://devpost.com/software/danceauth") Link to the project.
+
+        //-             .one-half.column
+        //-                 h5 DANCEAUTH
+        //-                 p Shape. Slicing. Security. Let's put the 2-step in 2-step authentication with dance move passwords.
+        //-                 a(href="https://devpost.com/software/danceauth") Link to the project.
