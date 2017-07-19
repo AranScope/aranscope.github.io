@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400');
 
 html, body {
   font-family: "Lato", sans-serif;
@@ -6,58 +6,7 @@ html, body {
   height: 100%;
 }
 
-#header {
-  min-height: 90%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-}
-
-.heading {
-    color: #2A3551;
-    letter-spacing: 10px; 
-}
-
-.center {
-  text-align: center;
-}
-.link {
-    color: #6076AD;
-    letter-spacing: 5px;
-    text-decoration: none;
-}
-
-.image {
-    max-width: 200px;   
-}
-
-
-.title {
-    border: 4px solid;
-    padding: 2rem 0;
-
-}
-
-.arrow {
-  color: #ddd;
-  font-size: 5em;
-  text-decoration: none;
-}
-
-.arrow:hover {
-  color: #ccc;
-}
-
-.header {
-  background-color: #333;
-  color: #ecf0f1;
-}
-
-.section {
-  padding: 6em 3rem;
-}
-
+/*---- Text Styling ----*/
 a,
 p,
 li {
@@ -85,23 +34,64 @@ h5, h6 {
   margin-bottom: 0.2em;
 }
 
-img {
-  margin: 25px 0;
+/*---- Section Styling ----*/
+
+.section {
+  padding: 6em 3em;
 }
 
-a {
-  color: #ecf0f1;;
+/*---- Specific Section Styling ----*/
+
+#header {
+  min-height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  .heading {
+    color: #2A3551;
+    letter-spacing: 0.32em; 
+    font-size: 2em;
+  }
+
+  .image {
+    max-width: 200px;   
+  }
+
+  a {
+    color: #6076AD;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
 }
+
 
 #about {
-  clip-path: polygon(50% 3em, 100% 0, 100% 100%, 0 100%, 0% 0);
-  /*background-color: #ecf0f1;*/
-  background-color: #364760;
-  /*color: #34495e;*/
+  clip-path: polygon(50% 3em, 100% 0, 100% calc(100% - 3em), 50% 100%, 0 calc(100% - 3em), 0 0);
+  background-color: #3F5765;
   color: #ecf0f1;
 }
 
 #projects {
-  background-color: #5678A9;
-  color: #ecf0f1;
+  padding-top: 10rem;
+  margin-top: -6rem;
+
+  p {
+    color: #193441;
+  }
+
+  a {
+    text-decoration: none;
+    color: #5678A9;
+  }
+}
+
+#footer {
+  background-color: #3F5765;
+  a {
+    color: #FCFFF5;
+  }
+  text-align: center;
+  padding: 2em;
 }
