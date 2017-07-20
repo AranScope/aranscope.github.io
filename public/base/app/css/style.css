@@ -10,7 +10,8 @@ p,
 li {
   font-weight: 300;
   letter-spacing: 0.2em;
-  font-size: 1.1em; }
+  font-size: 1.1em;
+  text-decoration: none; }
 
 h1,
 h2,
@@ -59,14 +60,18 @@ h5, h6 {
   padding-top: 10rem;
   margin-top: -6rem; }
   #projects p {
-    color: #193441; }
+    color: #484f4f;
+    font-weight: 300; }
   #projects a {
-    text-decoration: none;
     color: #5678A9; }
+  #projects .row {
+    padding: 1em 0 1.5em 0; }
+  #projects h4 {
+    margin: 0; }
 
 #footer {
   background-color: #3F5765;
   text-align: center;
-  padding: 2em; }
+  padding: 1em; }
   #footer a {
     color: #FCFFF5; }
