@@ -1,7 +1,7 @@
 {
-    "name": "Rookie Badge Issuer",
+    "name": "Badge Issuer",
     "description": "Issues great new Open Badges to self.",
-    "image": "http://static.aran.site/files/badges/rookie-badge-issuer.png",
-    "criteria": "http://static.aran.site/files/badges/rookie-badge-criteria.html",
+    "image": "http://static.aran.site/files/badges/badge-issuer.png",
+    "criteria": "http://static.aran.site/files/badges/badge-criteria.html",
     "issuer": "http://static/aran.site/files/badges/badge-issuer.json"
 }
