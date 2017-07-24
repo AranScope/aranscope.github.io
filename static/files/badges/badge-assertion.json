@@ -9,6 +9,6 @@
   "badge": "http://static.aran.site/files/badges/badge-class.json",
   "verify": {
     "type": "hosted",
-    "url": "http://static.aran.site/files/badge/badge-assertion.json"
+    "url": "http://static.aran.site/files/badges/badge-assertion.json"
   }
 }
