@@ -1,66 +1,55 @@
 doctype html
-html(lang="en")
-    head
-        meta(charset="utf-8")
-        meta(name="viewport" content="width=device-width, initial-scale=1")
-        
-        link(rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.min.css")
-        link(rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css")
-        link(rel="stylesheet" type="text/css" href="css/style.css")
-        title Aran Long
-        meta(name="description" content="Aran Long portfolio website")
-        meta(name="author" content="Aran Long")
-
-    body
-        header#header
-            .container
-                .row
-                    div.header
-                        img(src="./logo.png").image
-                        br
-                        br
-                        h4.heading ARAN LONG
-                        br
-                        a(href="/resume").link RESUME
-                        a.link  | 
-                        a(href="http://blog.aran.site").link BLOG
-                        a.link  | 
-                        a(href="/contact").link CONTACT
-        .section#about
-            .container.u-full-width
-                .row
-                    h4 ABOUT
-                    p I am a technical consultant that has worked on projects ranging from government led blockchain research to start up MVP development.
-                    p Over the last two years I have spent my time travelling around the world, competing in hackathons from Toronto to Barcelona to Helsinki to Prague. Current and previous work includes --
-                    ul
-                        li Current researcher @ UK Government
-                        li Current software engineer @ InventiveCogs
-                        li Ex. Intern software engineer @ Autodesk
-                    p I am currently seeking graduate roles with companies that are passionate about bringing new ideas to life, if you're looking for a partner in crime then please don't hesitate to get in touch.
-
-        .section#projects
-            .container.u-full-width
-                .row
-                    h4 PROJECTS
-                .row
-                    h5 HYPER-CERTS
-                    p A new way to audit, verify and store academic certificates, using Hyperledger Fabric. Developed using Node, GoLang and Docker. With thanks to Blockcerts. 
-                    a.link(href="#") Link coming soon.
-                .row
-                    h5 PERMISSION-CLOUD
-                    p A research project into fundamentally changing the way we handle IOT permissions. Giving power back to the users with Blockchain.
-                    a.link(href="http://blog.aran.site/cisco/") link to the project
-                .row
-                    h5 SEE
-                    p Helping the blind see with computational vision, machine learning, natural language processing and microservices. 
-                    a.link(href="https://devpost.com/software/see-81a6u7") link to the project
-                .row
-                    h5 NOTIFI.CLICK
-                    p A no-cost notification system built using Amazon Dash buttons, endlessly customizable. 
-                    a.link(href="http://blog.aran.site/hackathon-nightmares/") link to the project
-
-        .section#footer
-            .container.u-full-width
-                .row
-                    a &copy; Aran Long - 2017
-                    a(href="https://github.com/aranscope/aran.site")  - GitHub Source
+html
+  head
+    meta(charset='UTF-8')
+    title Aran Long - Hacker, Maker, Comp Sci
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(rel='stylesheet', href='css/style.css')
+  body
+    header.header.centred
+      .container
+        img.logo(src='https://aran.site/logo.png')
+        h1 ARAN LONG
+        a(href='https://aran.site/resume') RESUME
+        a  
+        a(href='https://blog.aran.site') BLOG
+        a  
+        a(href='#contact') CONTACT
+    section#projects.projects.centred
+      .container
+        .project
+          h1 PROJECTS
+        .project
+          h2 HYPER CERTS
+          p BLOCKCHAIN BACKED CERTIFICATIONS
+        hr
+        .project
+          a(href='http://blog.aran.site/cisco/')
+            h2 PERMISSION CLOUD
+          p BLOCKCHAIN BASED IOT SECURITY
+        hr
+        .project
+          a(href='https://github.com/aranscope/github-cards')
+            h2 GITHUB CARDS
+          p PAIN FREE CARDS FOR GH REPOS
+        hr
+        .project
+          a(href='http://blog.aran.site/hackathon-nightmares/')
+            h2 NOTIFI.CLICK
+          p NO-COST HARDWARE NOTIFICATIONS
+    section#contact.contact.centred
+      .container
+        h1 CONTACT
+        .contact-details
+          p TEL: +447933 282564
+          p EMAIL: hello@aran.site
+          p WEB: https://aran.site
+          br
+          p
+            a.button(href='mailto:hello@aran.site') EMAIL
+            |  OR
+            a.button(href='https://twitter.com/intent/tweet?text=Hey there, would love to get in touch! @aranscope') TWEET
+    footer#footer
+      a Copyright © Aran Long
+      a(href='https://github.com/aranscope/aran.site')  - Github Source
+    script(src='js/index.js')
