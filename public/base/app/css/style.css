@@ -71,7 +71,7 @@ header .logo {
   padding-top: 5em;
   background-color: #364760;
   color: white;
-  background: linear-gradient(rgba(63, 87, 101, 0.8), rgba(86, 120, 169, 0.8)), url("/projects.png") no-repeat;
+  background: linear-gradient(rgba(63, 87, 101, 0.8), rgba(86, 120, 169, 0.8)), url("/projects.jpg") no-repeat;
   background-size: cover;
   clip-path: polygon(50% 5%, 100% 0, 100% calc(100% - 3em), 50% 100%, 0 calc(100% - 3em), 0 0); }
 
