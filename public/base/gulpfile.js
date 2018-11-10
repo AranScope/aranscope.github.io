@@ -2,6 +2,7 @@ var gulp = require('gulp');
 var gutil = require('gulp-util');
 var sass = require('gulp-sass');
 var pug = require('gulp-pug');
+var autoprefixer = require('gulp-autoprefixer');
 var browserSync = require('browser-sync');
 var reload = browserSync.reload;
 
@@ -9,6 +10,7 @@ gulp.task('sass', function() {
   return gulp.src('app/scss/*.scss')
     .pipe(sass())
     .on('error', gutil.log)
+    .pipe(autoprefixer())
     .pipe(gulp.dest('app/css'))
     .pipe(reload({ stream:true }));
 });

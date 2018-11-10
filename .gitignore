@@ -14,3 +14,5 @@ node_modules
 
 # Not sure :/
 *.swp
+
+package-lock.json
