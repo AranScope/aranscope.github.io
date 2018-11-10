@@ -57,8 +57,8 @@ hr {
 
 /* Header */
 .header {
-  height: 90%;
-  background-color: white; }
+  height: 95%;
+  background: repeating-linear-gradient(32deg, transparent, transparent 19px, #f6f6f6 10px, #f6f6f6 20px, #f6f6f6 20.1px); }
 
 header h1 {
   font-weight: 400; }
@@ -68,10 +68,11 @@ header .logo {
 
 /* Projects */
 .projects {
+  margin-top: -3em;
   padding-top: 5em;
   background-color: #364760;
   color: white;
-  background: linear-gradient(rgba(63, 87, 101, 0.8), rgba(86, 120, 169, 0.8)), url("/projects.png") no-repeat;
+  background: linear-gradient(#677A85, #7993B6);
   background-size: cover;
   -webkit-clip-path: polygon(50% 3em, 100% 0, 100% calc(100% - 3em), 50% 100%, 0 calc(100% - 3em), 0 0);
           clip-path: polygon(50% 3em, 100% 0, 100% calc(100% - 3em), 50% 100%, 0 calc(100% - 3em), 0 0); }
@@ -105,7 +106,7 @@ header .logo {
 .contact {
   margin-top: -3em;
   padding-top: 6em;
-  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.6)), url("/contact.jpg") no-repeat;
+  background: repeating-linear-gradient(148deg, transparent, transparent 19px, #f6f6f6 10px, #f6f6f6 20px, #f6f6f6 20.1px);
   background-size: cover; }
 
 .contact h1 {
