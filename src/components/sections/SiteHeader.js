@@ -24,7 +24,7 @@ export default () => (
     <HeaderAranLogo />
     <HeaderH1>ARAN LONG</HeaderH1>
     <nav>
-      <A href="https://aran.site/resume">RESUME</A>
+      <A href="/resume.pdf">RESUME</A>
       <A> | </A>
       <A href="https://blog.aran.site">BLOG</A>
       <A> | </A>
