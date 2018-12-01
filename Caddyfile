@@ -8,7 +8,7 @@ aran.site, aranlong.co.uk {
 	log access.log
 	errors error.log
 	
-	root public/base/app
+	root aran.site/build
 
 	redir /resume https://static.aran.site/files/resume.pdf
 	redir /cv https://static.aran.site/files/cv.pdf
