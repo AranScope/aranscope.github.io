@@ -1,6 +1,5 @@
 import React from "react";
 
-import data from "../data/cv.json"
 import '../styles/tailwind.css';
 import styled from "styled-components";
 
@@ -66,7 +65,7 @@ const Job = ({company, role, start_date, end_date, description, key_points}) => 
     </div>
 )
 
-export default () => (
+export default ({data}) => (
     <Container>
         <Page className="page border-t-8 border-black bg-white">
             <div className="mx-12 my-4">
@@ -93,7 +92,7 @@ export default () => (
                 <div className="flex">
                     <section className="w-3/5 pr-4">
                         {
-                            data.jobs.map(job => (
+                            data.jobs && data.jobs.map(job => (
                                 <Job {...job}/>
                             ))
                         }

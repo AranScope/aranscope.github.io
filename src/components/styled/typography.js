@@ -36,6 +36,7 @@ export const A = styled.a`
   letter-spacing: 0.2em;
   text-decoration: none;
   color: #5678a9;
+  font-size: 16px;
 `;
 
 export const Hr = styled.hr`
