@@ -1,5 +1,5 @@
 {
-  "Jobs": [
+  "jobs": [
     {
       "start_date": "2019-09-09T19:45:35.052Z",
       "end_date": "",
@@ -18,7 +18,7 @@
       "start_date": "2018-07-09T19:47:20.870Z",
       "end_date": "2020-08-07T19:47:20.891Z",
       "company": "Goldman Sachs",
-      "role": "Building an investment banking equities platform thats faciliates multi billion dollar IPOs, including Uber and Slack.",
+      "role": "Backend Engineer (Analyst)",
       "description": "Building an investment banking equities platform that facilitates multi billion dollar IPOs, including Uber and Slack.",
       "key_points": [
         "Worked on converting our monolith equities management application into a suite of RESTful Java Spring microservices",
@@ -27,5 +27,46 @@
     }
   ],
   "name": "Aran Long",
-  "biography": "Hi! I’m a software engineer motivated by solving product problems with technology. I’m seeking a senior role, where I can help you build products that will be loved by many"
+  "biography": "Hi! I’m a software engineer motivated by solving product problems with technology. I’m seeking a senior role, where I can help you build products that will be loved by many",
+  "skills": [
+    {
+      "skill": "Golang"
+    },
+    {
+      "skill": "Python"
+    },
+    {
+      "skill": "Python"
+    },
+    {
+      "skill": "Javascript"
+    },
+    {
+      "skill": "React"
+    }
+  ],
+  "contactInfo": [
+    {
+      "contact": "https://aran.site",
+      "link": "https://aran.site"
+    },
+    {
+      "contact": "me@aran.site",
+      "link": "mailto:me@aran.site"
+    },
+    {
+      "contact": "+44 7933 282564",
+      "link": "tel:+44 7933 282564"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Pedalo",
+      "description": "Ethereum blockchain based credential verification system, awarded the “best use of blockchain” at the largest hackathon in Canada, received pre-seed grant from 1517fund - based in Silicon Valley."
+    },
+    {
+      "name": "Notifi.Click",
+      "description": "Zero-cost paging system building using a serverless architecture and Amazon dash buttons. Awarded the best use of Amazon Web Services at HackUPC in Barcelona."
+    }
+  ]
 }

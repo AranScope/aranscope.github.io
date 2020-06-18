@@ -15,8 +15,11 @@ const HeaderAranLogo = styled(AranLogo)`
 `;
 
 const HeaderH1 = styled(H1)`
+margin-top: 22px;
+margin-bottom: 22px;
   font-weight: 400;
   color: #364760;
+  font-size: 2em;
 `;
 
 export default () => (

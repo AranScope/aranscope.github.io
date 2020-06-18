@@ -1,0 +1,93 @@
+backend:
+  name: github
+  # change repo to your git repository url
+  repo: aranscope/aran.site
+
+media_folder: static/assets
+public_folder: /assets
+
+collections:
+  - name: cv
+    label: Curriculum Vitae
+    files:
+      - name: cv
+        label: CV
+        file: src/data/cv.json
+        fields:
+          - name: name
+            label: Name
+            widget: string
+            required: true
+          - name: role
+            label: Role
+            widget: string
+            required: false
+          - name: biography
+            label: Biography
+            widget: text
+            required: false
+          - name: contactInfo
+            label: Contact info
+            widget: list
+            fields:
+              - name: contact
+                label: Contact
+                widget: string
+                required: true
+              - name: link
+                label: Link
+                widget: string
+          - name: jobs
+            label: jobs
+            singular_label: job
+            widget: list
+            fields:
+              - name: company
+                label: Company
+                widget: string
+                required: true
+              - name: role
+                label: Role
+                widget: string
+                required: true
+              - name: start_date
+                label: Start date
+                widget: date
+                required: true
+              - name: end_date
+                label: End date
+                widget: date
+                required: false
+              - name: description
+                label: Description
+                widget: text
+                required: false
+              - name: key_points
+                label: Key points
+                widget: list
+                field:
+                  name: point
+                  label: Point
+                  widget: string
+          - name: skills
+            label: Skills
+            singular_label: skill
+            widget: list
+            field:
+              name: skill
+              label: Skill
+              widget: string
+              required: true
+          - name: projects
+            label: Awards & Projects
+            singular_label: project
+            widget: list
+            fields:
+              - name: name
+                label: Name
+                widget: string
+                required: true
+              - name: description
+                label: description
+                widget: string
+                required: true

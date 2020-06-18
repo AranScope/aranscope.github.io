@@ -5,6 +5,7 @@ export const H1 = styled.h1`
   font-family: "Lato";
   letter-spacing: 0.2em;
   text-transform: uppercase;
+  font-size: 2em;
   color: ${props => (props.light ? "white" : "#364760")};
 `;
 

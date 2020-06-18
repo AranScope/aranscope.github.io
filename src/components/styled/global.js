@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import {createGlobalStyle} from "styled-components";
 
 export default createGlobalStyle`
   @import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,400i,700");
@@ -19,4 +19,30 @@ export default createGlobalStyle`
   *, *:before, *:after {
     box-sizing: border-box;
   }
+  
+  @page {
+    size: A4;
+    margin: 0;
+  }
+
+    @media print {
+        html, body {
+            width: 210mm;
+            height: 297mm;
+            overflow: hidden;
+        }
+    }
+    
+    @page {
+        size: A4;
+        margin: 0;
+    }
+    
+    @media print {
+        html, body {
+            width: 210mm;
+            height: 297mm;
+            overflow: hidden;
+        }
+    }
 `;
