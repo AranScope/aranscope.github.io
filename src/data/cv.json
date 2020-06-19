@@ -69,6 +69,18 @@
     {
       "name": "Notifi.Click",
       "description": "Zero-cost paging system building using a serverless architecture and Amazon dash buttons. Awarded the best use of Amazon Web Services at HackUPC in Barcelona."
+    },
+    {
+      "name": "BusOff",
+      "description": "Awarded Deezer prize for developing a virality focussed interactive game. Built motion service using Python, SocketIO, OpenCV."
+    },
+    {
+      "name": "Cisco University Challenge",
+      "description": "Awarded first-place prize for developing ‘Permission Cloud’. A Blockchain based IOT permissions system developed with Barclays."
+    },
+    {
+      "name": "Gadget Show",
+      "description": "Developed, with a team of 10, a speed dating chatbot that featured on the UK TV series. Built the data entry stack, architected the project."
     }
   ]
 }
