@@ -12,7 +12,8 @@
         "Resolved complex issues as an operations on-call engineer, making use of Grafana, Kibana, Jaeger",
         "Onboarded and upskilled new engineers, supporting them in learning Golang and other core competencies",
         "Built internal microservice directory, which improved developer experience"
-      ]
+      ],
+      "visible": true
     },
     {
       "start_date": "2018-07-09T19:47:20.870Z",
@@ -23,7 +24,8 @@
       "key_points": [
         "Worked on converting our monolith equities management application into a suite of RESTful Java Spring microservices",
         "On-call engineer for the Uber IPO, ensuring that any production incidents were resolved quickly and efficiently"
-      ]
+      ],
+      "visible": true
     }
   ],
   "name": "Aran Long",
