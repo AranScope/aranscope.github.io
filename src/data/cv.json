@@ -32,19 +32,24 @@
   "biography": "Hi! I’m a software engineer motivated by solving product problems with technology. I’m seeking a senior role, where I can help you build products that will be loved by many",
   "skills": [
     {
-      "skill": "Golang"
+      "skill": "Golang",
+      "visible": true
     },
     {
-      "skill": "Python"
+      "skill": "Python",
+      "visible": true
     },
     {
-      "skill": "Python"
+      "skill": "Python",
+      "visible": true
     },
     {
-      "skill": "Javascript"
+      "skill": "Javascript",
+      "visible": true
     },
     {
-      "skill": "React"
+      "skill": "React",
+      "visible": true
     }
   ],
   "contactInfo": [
@@ -64,23 +69,33 @@
   "projects": [
     {
       "name": "Pedalo",
-      "description": "Ethereum blockchain based credential verification system, awarded the “best use of blockchain” at the largest hackathon in Canada, received pre-seed grant from 1517fund - based in Silicon Valley."
+      "description": "Ethereum blockchain based credential verification system, awarded the “best use of blockchain” at the largest hackathon in Canada, received pre-seed grant from 1517fund - based in Silicon Valley.",
+      "date": "2020-06-19T23:25:52.960Z",
+      "visible": true
     },
     {
       "name": "Notifi.Click",
-      "description": "Zero-cost paging system building using a serverless architecture and Amazon dash buttons. Awarded the best use of Amazon Web Services at HackUPC in Barcelona."
+      "description": "Zero-cost paging system building using a serverless architecture and Amazon dash buttons. Awarded the best use of Amazon Web Services at HackUPC in Barcelona.",
+      "date": "2020-06-19T23:25:53.064Z",
+      "visible": true
     },
     {
       "name": "BusOff",
-      "description": "Awarded Deezer prize for developing a virality focussed interactive game. Built motion service using Python, SocketIO, OpenCV."
+      "description": "Awarded Deezer prize for developing a virality focussed interactive game. Built motion service using Python, SocketIO, OpenCV.",
+      "date": "2020-06-19T23:25:53.121Z",
+      "visible": true
     },
     {
       "name": "Cisco University Challenge",
-      "description": "Awarded first-place prize for developing ‘Permission Cloud’. A Blockchain based IOT permissions system developed with Barclays."
+      "description": "Awarded first-place prize for developing ‘Permission Cloud’. A Blockchain based IOT permissions system developed with Barclays.",
+      "date": "2020-06-19T23:25:53.171Z",
+      "visible": true
     },
     {
       "name": "Gadget Show",
-      "description": "Developed, with a team of 10, a speed dating chatbot that featured on the UK TV series. Built the data entry stack, architected the project."
+      "description": "Developed, with a team of 10, a speed dating chatbot that featured on the UK TV series. Built the data entry stack, architected the project.",
+      "date": "2020-06-19T23:25:53.220Z",
+      "visible": true
     }
   ]
 }
