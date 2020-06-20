@@ -142,7 +142,7 @@ export default ({data}) => (
                     <section className="w-2/5">
                         {
                             data.skills && (
-                                <div className="flex flex-wrap content-center">
+                                <div className="flex flex-wrap content-center mb-2">
                                     {
                                         <Join separator={<p className="mx-1 text-gray-500">•</p>}>
                                             {

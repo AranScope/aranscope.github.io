@@ -1,8 +1,8 @@
 import React from "react"
 import {
-    BrowserRouter as Router,
+    BrowserRouter,
     Switch,
-    Route
+    Route,
 } from "react-router-dom"
 
 import Index from "./pages/index"
@@ -11,11 +11,11 @@ import Admin from "./pages/admin"
 import data from "./data/cv.json"
 
 export default () => (
-    <Router>
+    <BrowserRouter>
         <Switch>
-            <Route exact path="/admin" component={Admin}/>
-            <Route exact path="/cv" component={() => (<Cv data={data}/>)}/>
             <Route exact path="/" component={Index}/>
+            <Route path="/cv" component={() => (<Cv data={data}/>)}/>
+            <Route path="/admin" component={Admin}/>
         </Switch>
-    </Router>
+    </BrowserRouter>
 )
