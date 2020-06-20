@@ -122,62 +122,122 @@
   "projects": [
     {
       "name": "Pedalo",
-      "description": "Ethereum blockchain based credential verification system, awarded the “best use of blockchain” at the largest hackathon in Canada, received pre-seed grant from 1517fund - based in Silicon Valley.",
-      "date": "2020-06-19T23:25:52.960Z",
+      "description": {
+        "description": "Ethereum blockchain based credential verification system, awarded the “best use of blockchain” at the largest hackathon in Canada, received pre-seed grant from 1517fund - based in Silicon Valley.",
+        "visible": false
+      },
+      "date": {
+        "date": "2020-06-19T23:25:52.960Z",
+        "visible": false
+      },
       "visible": true
     },
     {
       "name": "Notifi.Click",
-      "description": "Zero-cost paging system building using a serverless architecture and Amazon dash buttons. Awarded the best use of Amazon Web Services at HackUPC in Barcelona.",
-      "date": "2020-06-19T23:25:53.064Z",
+      "description": {
+        "description": "Zero-cost paging system building using a serverless architecture and Amazon dash buttons. Awarded the best use of Amazon Web Services at HackUPC in Barcelona.",
+        "visible": false
+      },
+      "date": {
+        "date": "2020-06-19T23:25:53.064Z",
+        "visible": false
+      },
       "visible": true
     },
     {
       "name": "BusOff",
-      "description": "Awarded Deezer prize for developing a virality focussed interactive game. Built motion service using Python, SocketIO, OpenCV.",
-      "date": "2020-06-19T23:25:53.121Z",
+      "description": {
+        "description": "Awarded Deezer prize for developing a virality focussed interactive game. Built motion service using Python, SocketIO, OpenCV.",
+        "visible": false
+      },
+      "date": {
+        "date": "2020-06-19T23:25:53.121Z",
+        "visible": false
+      },
       "visible": true
     },
     {
       "name": "Cisco University Challenge",
-      "description": "Awarded first-place prize for developing ‘Permission Cloud’. A Blockchain based IOT permissions system developed with Barclays.",
-      "date": "2020-06-19T23:25:53.171Z",
+      "description": {
+        "description": "Awarded first-place prize for developing ‘Permission Cloud’. A Blockchain based IOT permissions system developed with Barclays.",
+        "visible": false
+      },
+      "date": {
+        "date": "2020-06-19T23:25:53.171Z",
+        "visible": false
+      },
       "visible": true
     },
     {
       "name": "Gadget Show",
-      "description": "Developed, with a team of 10, a speed dating chatbot that featured on the UK TV series. Built the data entry stack, architected the project.",
-      "date": "2020-06-19T23:25:53.220Z",
+      "description": {
+        "description": "Developed, with a team of 10, a speed dating chatbot that featured on the UK TV series. Built the data entry stack, architected the project.",
+        "visible": false
+      },
+      "date": {
+        "date": "2020-06-19T23:25:53.220Z",
+        "visible": false
+      },
       "visible": true
     },
     {
-      "date": "2016-09-01T12:46:12.646Z",
+      "date": {
+        "date": "2016-09-01T12:46:12.646Z",
+        "visible": false
+      },
       "name": "Travlr",
-      "description": "Developed machine learning travel app using Node, Express, React, JS. Likely provoked early release of Google Trips.",
+      "description": {
+        "description": "Developed machine learning travel app using Node, Express, React, JS. Likely provoked early release of Google Trips.",
+        "visible": false
+      },
       "visible": false
     },
     {
-      "date": "2016-06-01T12:47:57.869Z",
+      "date": {
+        "date": "2016-06-01T12:47:57.869Z",
+        "visible": false
+      },
       "name": "Autonomous Warehouse",
-      "description": "Led a team of 10 developers in creating a prototype multi-robot autonomous warehouse system",
+      "description": {
+        "description": "Led a team of 10 developers in creating a prototype multi-robot autonomous warehouse system",
+        "visible": false
+      },
       "visible": false
     },
     {
-      "date": "2016-04-13T12:48:57.180Z",
+      "date": {
+        "date": "2016-04-13T12:48:57.180Z",
+        "visible": false
+      },
       "name": "Geodonation",
-      "description": "A charity analytics platform using the Pebble smartwatch, QR scanning and an IOT donation box.",
+      "description": {
+        "description": "A charity analytics platform using the Pebble smartwatch, QR scanning and an IOT donation box.",
+        "visible": false
+      },
       "visible": false
     },
     {
-      "date": "2015-11-10T13:50:21.043Z",
+      "date": {
+        "date": "2015-11-10T13:50:21.043Z",
+        "visible": false
+      },
       "name": "Stock Motion",
-      "description": "Awarded the Capital One Prize for developing Stock Motion, a gamified stock trading visualisation using the leap motion and the Capital One API.",
+      "description": {
+        "description": "Awarded the Capital One Prize for developing Stock Motion, a gamified stock trading visualisation using the leap motion and the Capital One API.",
+        "visible": false
+      },
       "visible": false
     },
     {
-      "date": "2020-06-20T12:51:00.273Z",
+      "date": {
+        "date": "2020-06-20T12:51:00.273Z",
+        "visible": false
+      },
       "name": "TwEAT",
-      "description": "Developed a data visualisation interactive game based on the influence of Twitter users in a network.",
+      "description": {
+        "description": "Developed a data visualisation interactive game based on the influence of Twitter users in a network.",
+        "visible": false
+      },
       "visible": false
     }
   ],
