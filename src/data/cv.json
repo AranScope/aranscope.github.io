@@ -26,6 +26,36 @@
         "On-call engineer for the Uber IPO, ensuring that any production incidents were resolved quickly and efficiently"
       ],
       "visible": true
+    },
+    {
+      "start_date": "2017-07-02T23:58:45.383Z",
+      "end_date": "2017-09-11T23:58:45.445Z",
+      "visible": true,
+      "company": "UK Government",
+      "role": "Blockchain Research Intern",
+      "description": "Developed academic credential verification system using Hyperledger. Based on MIT’s ‘Blockcerts’ project."
+    },
+    {
+      "start_date": "2016-09-05T00:00:44.944Z",
+      "end_date": "2018-07-02T00:00:44.992Z",
+      "visible": true,
+      "company": "Inventive Cogs",
+      "role": "Software Engineer / Research Contractor",
+      "key_points": [
+        "Completed funded research project titled “ Road Network Load Balancing for Mutli-Agent Informal Fleets“,           presented to Bosch and the UK government department for transport, helping to gain initial seed funding",
+        "Facilated the development of multiple patents, working on Java application for multi-objective route planning"
+      ]
+    },
+    {
+      "start_date": "2015-06-06T23:00:00.000Z",
+      "end_date": "2015-06-08T23:00:00.000Z",
+      "visible": true,
+      "company": "Autodesk",
+      "role": "Software Engineer Intern",
+      "key_points": [
+        "Rebuilt core XML abstract library in C++, resulting in 100% backend UNIX compatibility",
+        "Implemented error checking into macro scripting language"
+      ]
     }
   ],
   "name": "Aran Long",
