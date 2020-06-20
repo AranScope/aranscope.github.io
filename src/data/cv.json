@@ -48,7 +48,7 @@
         "Completed funded research project titled “ Road Network Load Balancing for Mutli-Agent Informal Fleets“,           presented to Bosch and the UK government department for transport, helping to gain initial seed funding",
         "Facilated the development of multiple patents, working on Java application for multi-objective route planning"
       ],
-      "descriptionVisible": false
+      "descriptionVisible": true
     },
     {
       "start_date": "2015-06-06T23:00:00.000Z",
@@ -83,10 +83,12 @@
       "visible": true
     },
     {
-      "skill": "Javascript"
+      "skill": "Javascript",
+      "visible": true
     },
     {
-      "skill": "Mentorship"
+      "skill": "Mentorship",
+      "visible": true
     },
     {
       "skill": "Interviewing"
@@ -149,6 +151,14 @@
       "qualification": "Computer Science BSc",
       "grade": "First Class w/ Honours",
       "visible": true
+    },
+    {
+      "start_date": "2020-06-20T11:11:57.108Z",
+      "end_date": "2020-06-20T11:11:57.324Z",
+      "institution": "St. Brendan's Sixth Form College",
+      "qualification": "A-Levels",
+      "grade": "A* A A a a",
+      "visible": false
     }
   ]
 }
