@@ -66,7 +66,7 @@
     }
   ],
   "name": "Aran Long",
-  "biography": "Hi! I’m a software engineer motivated by solving product problems with technology. I’m seeking a senior role, where I can help you build products that will be loved by many",
+  "biography": "Hi! 👋 I’m a software engineer motivated by solving product problems with technology. I’m seeking a senior role, where I can help you build products that will be loved by many",
   "skills": [
     {
       "skill": "Golang",
@@ -98,7 +98,7 @@
     },
     {
       "skill": "Interviewing",
-      "visible": true
+      "visible": false
     },
     {
       "skill": "Cassandra",
