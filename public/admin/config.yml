@@ -92,6 +92,7 @@ collections:
               - name: description
                 label: Description
                 widget: text
+                required: false
               - name: key_points
                 label: Key points
                 widget: list
