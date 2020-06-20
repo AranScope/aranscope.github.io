@@ -128,7 +128,7 @@ collections:
                 hint: Controls whether this is visible
               - name: link
                 label: Link
-                widget: text
+                widget: string
                 required: false
               - name: date
                 label: Date
