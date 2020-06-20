@@ -13,16 +13,9 @@ import data from "./data/cv.json"
 export default () => (
     <Router>
         <Switch>
-            <Route path="/cv">
-                <Cv data={data}/>
-            </Route>
-            <Route path="/admin">
-                <Admin/>
-            </Route>
-            <Route path="/">
-                <Index/>
-            </Route>
-
+            <Route exact path="/admin" component={Admin}/>
+            <Route exact path="/cv" component={() => (<Cv data={data}/>)}/>
+            <Route exact path="/" component={Index}/>
         </Switch>
     </Router>
 )

@@ -18,10 +18,6 @@ collections:
             label: Name
             widget: string
             required: true
-          - name: role
-            label: Role
-            widget: string
-            required: false
           - name: biography
             label: Biography
             widget: text
@@ -37,6 +33,35 @@ collections:
               - name: link
                 label: Link
                 widget: string
+          - name: education
+            label: education
+            widget: list
+            fields:
+              - name: institution
+                label: Institution
+                widget: string
+                required: true
+              - name: visible
+                label: Visible
+                widget: boolean
+                hint: Controls whether this is visible
+                required: false
+              - name: qualification
+                label: qualification
+                widget: string
+                required: true
+              - name: grade
+                label: Grade
+                widget: string
+                required: false
+              - name: start_date
+                label: Start date
+                widget: date
+                required: true
+              - name: end_date
+                label: End date
+                widget: date
+                required: false
           - name: jobs
             label: jobs
             singular_label: job
@@ -46,6 +71,11 @@ collections:
                 label: Company
                 widget: string
                 required: true
+              - name: visible
+                label: Visible
+                widget: boolean
+                hint: Controls whether this is visible
+                required: false
               - name: role
                 label: Role
                 widget: string
@@ -58,6 +88,9 @@ collections:
                 label: End date
                 widget: date
                 required: false
+              - name: descriptionVisible
+                label: Include description?
+                widget: boolean
               - name: description
                 label: Description
                 widget: text
@@ -73,11 +106,16 @@ collections:
             label: Skills
             singular_label: skill
             widget: list
-            field:
-              name: skill
-              label: Skill
-              widget: string
-              required: true
+            fields:
+              - name: skill
+                label: Skill
+                widget: string
+                required: true
+              - name: visible
+                label: Visible
+                widget: boolean
+                hint: Controls whether this is visible
+                required: false
           - name: projects
             label: Awards & Projects
             singular_label: project
@@ -87,6 +125,15 @@ collections:
                 label: Name
                 widget: string
                 required: true
+              - name: visible
+                label: Visible
+                widget: boolean
+                hint: Controls whether this is visible
+                required: false
+              - name: date
+                label: Date
+                widget: date
+                required: false
               - name: description
                 label: description
                 widget: string

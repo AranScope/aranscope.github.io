@@ -6,7 +6,6 @@ import { A, H1 } from "../styled/typography";
 
 const FullHeightCenteredHeader = styled(CenteredHeader)`
   height: 90%;
-  background-color: white;
 `;
 
 const HeaderAranLogo = styled(AranLogo)`

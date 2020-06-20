@@ -32,7 +32,7 @@ export const Li = styled.li`
 
 export const A = styled.a`
   font-family: "Lato";
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 0.2em;
   text-decoration: none;
   color: #5678a9;
