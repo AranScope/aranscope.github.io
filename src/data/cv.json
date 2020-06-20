@@ -124,11 +124,11 @@
       "name": "Pedalo",
       "description": {
         "description": "Ethereum blockchain based credential verification system, awarded the “best use of blockchain” at the largest hackathon in Canada, received pre-seed grant from 1517fund - based in Silicon Valley.",
-        "visible": false
+        "visible": true
       },
       "date": {
         "date": "2020-06-19T23:25:52.960Z",
-        "visible": false
+        "visible": true
       },
       "visible": true
     },
@@ -136,11 +136,11 @@
       "name": "Notifi.Click",
       "description": {
         "description": "Zero-cost paging system building using a serverless architecture and Amazon dash buttons. Awarded the best use of Amazon Web Services at HackUPC in Barcelona.",
-        "visible": false
+        "visible": true
       },
       "date": {
         "date": "2020-06-19T23:25:53.064Z",
-        "visible": false
+        "visible": true
       },
       "visible": true
     },
@@ -148,11 +148,11 @@
       "name": "BusOff",
       "description": {
         "description": "Awarded Deezer prize for developing a virality focussed interactive game. Built motion service using Python, SocketIO, OpenCV.",
-        "visible": false
+        "visible": true
       },
       "date": {
         "date": "2020-06-19T23:25:53.121Z",
-        "visible": false
+        "visible": true
       },
       "visible": true
     },
