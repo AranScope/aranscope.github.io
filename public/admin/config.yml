@@ -144,7 +144,7 @@ collections:
                 fields:
                   - name: description
                     label: Description
-                    widget: string
+                    widget: text
                   - name: visible
                     label: Visible
                     widget: boolean
