@@ -75,10 +75,6 @@
       "visible": true
     },
     {
-      "skill": "Python",
-      "visible": true
-    },
-    {
       "skill": "Javascript",
       "visible": true
     },
@@ -131,6 +127,15 @@
       "description": "Developed, with a team of 10, a speed dating chatbot that featured on the UK TV series. Built the data entry stack, architected the project.",
       "date": "2020-06-19T23:25:53.220Z",
       "visible": true
+    }
+  ],
+  "education": [
+    {
+      "start_date": "2015-09-21T10:42:34.251Z",
+      "end_date": "2018-07-01T10:42:34.431Z",
+      "institution": "University of Birmingham",
+      "qualification": "Computer Science BSc",
+      "grade": "First Class w/ Honours"
     }
   ]
 }
