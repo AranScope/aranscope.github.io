@@ -48,8 +48,8 @@
         "Completed funded research project titled “ Road Network Load Balancing for Mutli-Agent Informal Fleets“,           presented to Bosch and the UK government department for transport, helping to gain initial seed funding",
         "Facilated the development of multiple patents, working on Java application for multi-objective route planning"
       ],
-      "descriptionVisible": false,
-      "description": "asd"
+      "descriptionVisible": true,
+      "description": ""
     },
     {
       "start_date": "2015-06-06T23:00:00.000Z",
@@ -62,7 +62,7 @@
         "Implemented error checking into macro scripting language"
       ],
       "descriptionVisible": true,
-      "description": "asd"
+      "description": ""
     }
   ],
   "name": "Aran Long",
