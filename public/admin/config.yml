@@ -45,7 +45,6 @@ collections:
                 label: Visible
                 widget: boolean
                 hint: Controls whether this is visible
-                required: false
               - name: qualification
                 label: qualification
                 widget: string
@@ -75,7 +74,6 @@ collections:
                 label: Visible
                 widget: boolean
                 hint: Controls whether this is visible
-                required: false
               - name: role
                 label: Role
                 widget: string
@@ -94,7 +92,6 @@ collections:
               - name: description
                 label: Description
                 widget: text
-                required: false
               - name: key_points
                 label: Key points
                 widget: list
@@ -115,7 +112,6 @@ collections:
                 label: Visible
                 widget: boolean
                 hint: Controls whether this is visible
-                required: false
           - name: projects
             label: Awards & Projects
             singular_label: project
@@ -129,7 +125,6 @@ collections:
                 label: Visible
                 widget: boolean
                 hint: Controls whether this is visible
-                required: false
               - name: date
                 label: Date
                 widget: date
