@@ -128,9 +128,28 @@ collections:
                 hint: Controls whether this is visible
               - name: date
                 label: Date
-                widget: date
+                widget: object
+                fields:
+                  - name: date
+                    label: Date
+                    widget: date
+                  - name: visible
+                    label: Visible
+                    widget: boolean
+                    required: false
                 required: false
               - name: description
                 label: description
-                widget: string
-                required: true
+                widget: object
+                fields:
+                  - name: description
+                    label: Description
+                    widget: object
+                    fields:
+                      - name: description
+                        label: Description
+                        widget: string
+                      - name: visible
+                        label: Visible
+                        widget: boolean
+                        required: false

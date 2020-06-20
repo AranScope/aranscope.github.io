@@ -135,7 +135,7 @@ export default ({data}) => (
                     <section className="w-3/5 pr-8">
                         {
                             data.jobs && data.jobs.filter(isVisible).map(job => (
-                                <Job {...job}/>
+                                <Job key={job.company} {...job}/>
                             ))
                         }
                     </section>
@@ -147,7 +147,7 @@ export default ({data}) => (
                                         <Join separator={<p className="mx-1 text-gray-500">•</p>}>
                                             {
                                                 data.skills.filter(isVisible).map(skill => (
-                                                    <p className="text-sm mb-2 mx-1 font-serif">{skill.skill}</p>
+                                                    <p key={skill} className="text-sm mb-2 mx-1 font-serif">{skill.skill}</p>
                                                 ))
                                             }
                                         </Join>
@@ -162,10 +162,10 @@ export default ({data}) => (
                                     <h2 className="text-2xl font-bold font-sans tracking-tighter mb-2">Education</h2>
                                     {
                                         data.education.filter(isVisible).map(education => (
-                                            <>
+                                            <div key={education.institution + ":" + education.qualification}>
                                                 <h3 className="text-xl font-bold font-sans tracking-tighter">{education.institution}</h3>
                                                 <p className="text-sm font-serif tracking-tighter leading-normal mb-4">{education.qualification} - {education.grade}</p>
-                                            </>
+                                            </div>
                                         ))
                                     }
                                 </>
@@ -178,10 +178,19 @@ export default ({data}) => (
                                         Projects</h2>
                                     {
                                         data.projects.filter(isVisible).map(project => (
-                                            <>
+                                            <div key={project.name}>
                                                 <h3 className="text-xl font-bold font-sans tracking-tighter">{project.name}</h3>
-                                                <p className="text-sm font-serif tracking-tighter leading-normal mb-4">{project.description}</p>
-                                            </>
+                                                {
+                                                    project.date.visible && project.date.date && (
+                                                        <h3 className="italic text-gray-700 font-sans tracking-tighter mb-2">{shortDate(project.date.date)}</h3>
+                                                    )
+                                                }
+                                                {
+                                                    project.description.visible && project.description.description && (
+                                                        <p className="text-sm font-serif tracking-tighter leading-normal mb-4">{project.description.description}</p>
+                                                    )
+                                                }
+                                            </div>
                                         ))
                                     }
                                 </>
