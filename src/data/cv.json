@@ -71,16 +71,28 @@
       "visible": true
     },
     {
-      "skill": "Python",
+      "skill": "Distributed systems",
       "visible": true
     },
     {
-      "skill": "Javascript",
+      "skill": "Python",
       "visible": true
     },
     {
       "skill": "React",
       "visible": true
+    },
+    {
+      "skill": "Javascript"
+    },
+    {
+      "skill": "Mentorship"
+    },
+    {
+      "skill": "Interviewing"
+    },
+    {
+      "skill": "Cassandra"
     }
   ],
   "contactInfo": [
