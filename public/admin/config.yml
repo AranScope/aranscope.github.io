@@ -144,12 +144,8 @@ collections:
                 fields:
                   - name: description
                     label: Description
-                    widget: object
-                    fields:
-                      - name: description
-                        label: Description
-                        widget: string
-                      - name: visible
-                        label: Visible
-                        widget: boolean
-                        required: false
+                    widget: string
+                  - name: visible
+                    label: Visible
+                    widget: boolean
+                    required: false
