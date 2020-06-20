@@ -60,7 +60,7 @@
         "Rebuilt core XML abstract library in C++, resulting in 100% backend UNIX compatibility",
         "Implemented error checking into macro scripting language"
       ],
-      "descriptionVisible": true
+      "descriptionVisible": false
     }
   ],
   "name": "Aran Long",
