@@ -126,6 +126,10 @@ collections:
                 label: Visible
                 widget: boolean
                 hint: Controls whether this is visible
+              - name: link
+                label: Link
+                widget: text
+                required: false
               - name: date
                 label: Date
                 widget: object
