@@ -135,7 +135,8 @@
       "end_date": "2018-07-01T10:42:34.431Z",
       "institution": "University of Birmingham",
       "qualification": "Computer Science BSc",
-      "grade": "First Class w/ Honours"
+      "grade": "First Class w/ Honours",
+      "visible": true
     }
   ]
 }
