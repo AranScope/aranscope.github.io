@@ -135,7 +135,8 @@
         "date": "2020-06-19T23:25:52.960Z",
         "visible": false
       },
-      "visible": true
+      "visible": true,
+      "link": "https://devpost.com/software/pedalo"
     },
     {
       "name": "Notifi.Click",
@@ -147,7 +148,8 @@
         "date": "2020-06-19T23:25:53.064Z",
         "visible": false
       },
-      "visible": true
+      "visible": true,
+      "link": "https://devpost.com/software/notifi-click"
     },
     {
       "name": "BusOff",
@@ -159,7 +161,8 @@
         "date": "2020-06-19T23:25:53.121Z",
         "visible": false
       },
-      "visible": true
+      "visible": true,
+      "link": "https://devpost.com/software/bus-off"
     },
     {
       "name": "Cisco University Challenge",
@@ -171,7 +174,8 @@
         "date": "2020-06-19T23:25:53.171Z",
         "visible": false
       },
-      "visible": true
+      "visible": true,
+      "link": "https://www.youtube.com/watch?v=cahK_DmUERM"
     },
     {
       "name": "Gadget Show",
@@ -195,7 +199,8 @@
         "description": "Developed machine learning travel app using Node, Express, React, JS. Likely provoked early release of Google Trips.",
         "visible": false
       },
-      "visible": false
+      "visible": false,
+      "link": "https://devpost.com/software/travlr-o0qc4s"
     },
     {
       "date": {
@@ -219,7 +224,8 @@
         "description": "A charity analytics platform using the Pebble smartwatch, QR scanning and an IOT donation box.",
         "visible": true
       },
-      "visible": true
+      "visible": true,
+      "link": "https://devpost.com/software/geodonation"
     },
     {
       "date": {
@@ -231,7 +237,8 @@
         "description": "Awarded the Capital One Prize for developing Stock Motion, a gamified stock trading visualisation using the leap motion and the Capital One API.",
         "visible": false
       },
-      "visible": false
+      "visible": false,
+      "link": "https://devpost.com/software/stockmotion"
     },
     {
       "date": {
@@ -243,7 +250,19 @@
         "description": "Developed a data visualisation interactive game based on the influence of Twitter users in a network.",
         "visible": false
       },
-      "visible": false
+      "visible": false,
+      "link": "https://devpost.com/software/tweat"
+    },
+    {
+      "date": {
+        "date": "2020-06-20T20:13:58.590Z"
+      },
+      "name": "Danceauth",
+      "link": "https://devpost.com/software/danceauth",
+      "description": {
+        "description": "Shape slicing security. We put the 2 step in 2 step authentication.\n\n"
+      },
+      "visible": true
     }
   ],
   "education": [
