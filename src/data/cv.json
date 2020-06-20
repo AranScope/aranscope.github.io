@@ -35,8 +35,13 @@
       "visible": true,
       "company": "UK Government",
       "role": "Blockchain Research Intern",
-      "description": "Developed academic credential verification system using Hyperledger. Based on MIT’s ‘Blockcerts’ project.",
-      "descriptionVisible": true
+      "description": "",
+      "descriptionVisible": true,
+      "key_points": [
+        "Developed an academic credential verification system on the Hyperledger blockchain - Inspired by the 'Blockcerts' research project by MIT",
+        "Presented at the National Cyber Security Centre headquarters",
+        "Gained experience with Golang, Node, Python, ES6 and VueJS"
+      ]
     },
     {
       "start_date": "2016-09-05T00:00:44.944Z",
@@ -61,12 +66,12 @@
         "Rebuilt core XML abstract library in C++, resulting in 100% backend UNIX compatibility",
         "Implemented error checking into macro scripting language"
       ],
-      "descriptionVisible": true,
+      "descriptionVisible": false,
       "description": ""
     }
   ],
   "name": "Aran Long",
-  "biography": "Hi! 👋 I’m a software engineer motivated by solving product problems with technology. I’m seeking a senior role, where I can help you build products that will be loved by many",
+  "biography": "Hi! 👋 I’m a software engineer motivated by solving product problems with technology. I’m currently looking for a senior engineering role, with a product-focussed company that iterates quickly.",
   "skills": [
     {
       "skill": "Golang",
