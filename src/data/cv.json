@@ -13,7 +13,8 @@
         "Onboarded and upskilled new engineers, supporting them in learning Golang and other core competencies",
         "Built internal microservice directory, which improved developer experience"
       ],
-      "visible": true
+      "visible": true,
+      "descriptionVisible": true
     },
     {
       "start_date": "2018-07-09T19:47:20.870Z",
@@ -25,7 +26,8 @@
         "Worked on converting our monolith equities management application into a suite of RESTful Java Spring microservices",
         "On-call engineer for the Uber IPO, ensuring that any production incidents were resolved quickly and efficiently"
       ],
-      "visible": true
+      "visible": true,
+      "descriptionVisible": true
     },
     {
       "start_date": "2017-07-02T23:58:45.383Z",
@@ -33,7 +35,8 @@
       "visible": true,
       "company": "UK Government",
       "role": "Blockchain Research Intern",
-      "description": "Developed academic credential verification system using Hyperledger. Based on MIT’s ‘Blockcerts’ project."
+      "description": "Developed academic credential verification system using Hyperledger. Based on MIT’s ‘Blockcerts’ project.",
+      "descriptionVisible": true
     },
     {
       "start_date": "2016-09-05T00:00:44.944Z",
@@ -44,7 +47,8 @@
       "key_points": [
         "Completed funded research project titled “ Road Network Load Balancing for Mutli-Agent Informal Fleets“,           presented to Bosch and the UK government department for transport, helping to gain initial seed funding",
         "Facilated the development of multiple patents, working on Java application for multi-objective route planning"
-      ]
+      ],
+      "descriptionVisible": false
     },
     {
       "start_date": "2015-06-06T23:00:00.000Z",
@@ -55,7 +59,8 @@
       "key_points": [
         "Rebuilt core XML abstract library in C++, resulting in 100% backend UNIX compatibility",
         "Implemented error checking into macro scripting language"
-      ]
+      ],
+      "descriptionVisible": true
     }
   ],
   "name": "Aran Long",
