@@ -262,7 +262,7 @@
       "description": {
         "description": "Shape slicing security. We put the 2 step in 2 step authentication.\n\n"
       },
-      "visible": true
+      "visible": false
     }
   ],
   "education": [
