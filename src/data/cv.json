@@ -48,7 +48,8 @@
         "Completed funded research project titled “ Road Network Load Balancing for Mutli-Agent Informal Fleets“,           presented to Bosch and the UK government department for transport, helping to gain initial seed funding",
         "Facilated the development of multiple patents, working on Java application for multi-objective route planning"
       ],
-      "descriptionVisible": true
+      "descriptionVisible": false,
+      "description": "asd"
     },
     {
       "start_date": "2015-06-06T23:00:00.000Z",
@@ -60,7 +61,8 @@
         "Rebuilt core XML abstract library in C++, resulting in 100% backend UNIX compatibility",
         "Implemented error checking into macro scripting language"
       ],
-      "descriptionVisible": false
+      "descriptionVisible": true,
+      "description": "asd"
     }
   ],
   "name": "Aran Long",
@@ -72,6 +74,10 @@
     },
     {
       "skill": "Distributed systems",
+      "visible": true
+    },
+    {
+      "skill": "Microservices",
       "visible": true
     },
     {
@@ -91,10 +97,12 @@
       "visible": true
     },
     {
-      "skill": "Interviewing"
+      "skill": "Interviewing",
+      "visible": true
     },
     {
-      "skill": "Cassandra"
+      "skill": "Cassandra",
+      "visible": false
     }
   ],
   "contactInfo": [
@@ -141,6 +149,36 @@
       "description": "Developed, with a team of 10, a speed dating chatbot that featured on the UK TV series. Built the data entry stack, architected the project.",
       "date": "2020-06-19T23:25:53.220Z",
       "visible": true
+    },
+    {
+      "date": "2016-09-01T12:46:12.646Z",
+      "name": "Travlr",
+      "description": "Developed machine learning travel app using Node, Express, React, JS. Likely provoked early release of Google Trips.",
+      "visible": false
+    },
+    {
+      "date": "2016-06-01T12:47:57.869Z",
+      "name": "Autonomous Warehouse",
+      "description": "Led a team of 10 developers in creating a prototype multi-robot autonomous warehouse system",
+      "visible": false
+    },
+    {
+      "date": "2016-04-13T12:48:57.180Z",
+      "name": "Geodonation",
+      "description": "A charity analytics platform using the Pebble smartwatch, QR scanning and an IOT donation box.",
+      "visible": false
+    },
+    {
+      "date": "2015-11-10T13:50:21.043Z",
+      "name": "Stock Motion",
+      "description": "Awarded the Capital One Prize for developing Stock Motion, a gamified stock trading visualisation using the leap motion and the Capital One API.",
+      "visible": false
+    },
+    {
+      "date": "2020-06-20T12:51:00.273Z",
+      "name": "TwEAT",
+      "description": "Developed a data visualisation interactive game based on the influence of Twitter users in a network.",
+      "visible": false
     }
   ],
   "education": [
