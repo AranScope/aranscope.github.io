@@ -66,7 +66,7 @@
     }
   ],
   "name": "Aran Long",
-  "biography": "Hi! I’m a software engineer motivated by solving product problems with technology. I’m seeking a senior role, where I can help you build products that will be loved by many",
+  "biography": "Hi! 👋 I’m a software engineer motivated by solving product problems with technology. I’m seeking a senior role, where I can help you build products that will be loved by many",
   "skills": [
     {
       "skill": "Golang",
@@ -98,7 +98,7 @@
     },
     {
       "skill": "Interviewing",
-      "visible": true
+      "visible": false
     },
     {
       "skill": "Cassandra",
@@ -128,7 +128,7 @@
       },
       "date": {
         "date": "2020-06-19T23:25:52.960Z",
-        "visible": true
+        "visible": false
       },
       "visible": true
     },
@@ -140,7 +140,7 @@
       },
       "date": {
         "date": "2020-06-19T23:25:53.064Z",
-        "visible": true
+        "visible": false
       },
       "visible": true
     },
@@ -152,7 +152,7 @@
       },
       "date": {
         "date": "2020-06-19T23:25:53.121Z",
-        "visible": true
+        "visible": false
       },
       "visible": true
     },
@@ -160,7 +160,7 @@
       "name": "Cisco University Challenge",
       "description": {
         "description": "Awarded first-place prize for developing ‘Permission Cloud’. A Blockchain based IOT permissions system developed with Barclays.",
-        "visible": false
+        "visible": true
       },
       "date": {
         "date": "2020-06-19T23:25:53.171Z",
@@ -172,7 +172,7 @@
       "name": "Gadget Show",
       "description": {
         "description": "Developed, with a team of 10, a speed dating chatbot that featured on the UK TV series. Built the data entry stack, architected the project.",
-        "visible": false
+        "visible": true
       },
       "date": {
         "date": "2020-06-19T23:25:53.220Z",
@@ -212,9 +212,9 @@
       "name": "Geodonation",
       "description": {
         "description": "A charity analytics platform using the Pebble smartwatch, QR scanning and an IOT donation box.",
-        "visible": false
+        "visible": true
       },
-      "visible": false
+      "visible": true
     },
     {
       "date": {
