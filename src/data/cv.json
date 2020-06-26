@@ -78,7 +78,11 @@
       "visible": true
     },
     {
-      "skill": "Distributed systems",
+      "skill": "Java",
+      "visible": true
+    },
+    {
+      "skill": "Python",
       "visible": true
     },
     {
@@ -86,7 +90,7 @@
       "visible": true
     },
     {
-      "skill": "Python",
+      "skill": "Distributed systems",
       "visible": true
     },
     {
@@ -107,7 +111,11 @@
     },
     {
       "skill": "Cassandra",
-      "visible": false
+      "visible": true
+    },
+    {
+      "skill": "SQL",
+      "visible": true
     }
   ],
   "contactInfo": [
