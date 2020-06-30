@@ -18,7 +18,7 @@
     },
     {
       "start_date": "2018-07-09T19:47:20.870Z",
-      "end_date": "2020-08-07T19:47:20.891Z",
+      "end_date": "2019-08-21T19:47:20.891Z",
       "company": "Goldman Sachs",
       "role": "Backend Engineer (Analyst)",
       "description": "Building an investment banking equities platform that facilitates multi billion dollar IPOs, including Uber and Slack.",
@@ -91,6 +91,10 @@
     },
     {
       "skill": "Distributed systems",
+      "visible": true
+    },
+    {
+      "skill": "Testing",
       "visible": true
     },
     {
